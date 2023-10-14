@@ -1,0 +1,48 @@
+* {
+    font-family: 'PT Serif', serif;
+}
+/* font-family: 'Playfair Display', serif; */
+:root {
+    --primary: #ce1212;
+    --secodary: rgba(206, 18, 18, 0.1);
+}
+
+.bg-col {
+    background-color: var(--primary) !important;
+}
+
+.i-bg-col {
+    background: var(--secodary) !important;
+}
+
+.text-col {
+    color: var(--primary) !important;
+}
+
+.hero {
+    background: url(../assets/images/hamburger.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.icon {
+    width: 70px;
+}
+
+.card-zoom {
+    transition: all ease-in-out 0.5s;
+}
+
+.card-zoom:hover {
+    transform: scale(1.09);
+}
+
+.card-zoom:hover a {
+    background-color: var(--secodary) !important;
+    color: var(--primary) !important;
+}
+
+.index {
+    z-index: 100;
+}
