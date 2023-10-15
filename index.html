@@ -37,13 +37,13 @@
                 <div class="collapse navbar-collapse" id="navbarNavDropdown">
                     <ul class="navbar-nav ms-auto align-items-center fs-5">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="aboutus.html">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Contact</a>
+                            <a class="nav-link" href="contact.html">Contact</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">
@@ -58,8 +58,8 @@
     </header>
 
     <!-- hero -->
-    <main class="vh-100" data-aos="zoom-in-left" data-aos-duration="1000" data-aos-easing="ease-in-back">
-        <div class="hero d-flex align-items-end w-100 h-100">
+    <main class="" data-aos="fade-in" data-aos-easing="linear">
+        <div class="home-hero hero d-flex align-items-end">
             <div class="p-4 opacity-75">
                 <h1>Le Catering</h1>
             </div>
@@ -70,9 +70,9 @@
     <section class="bg-secondary-subtle py-5">
         <div class="container text-center" data-aos="fade-up" data-aos-duration="3000">
             <h1 class="text-col fw-medium mb-5">Why Choose <span>Le Catering</span>?</h1>
-            <div class="row gy-4">
-                <div class="col">
-                    <div class="card mx-auto shadow py-5 border-0 card-zoom" style="width: 18rem;">
+            <div class="row gy-4 gx-5">
+                <div class="col-md-6 col-lg-4">
+                    <div class="card mx-auto shadow py-5 border-0 card-zoom">
                         <div class="rounded-circle i-bg-col icon mx-auto py-1">
                             <i class="bi bi-clipboard-data fs-1 text-col"></i>
                         </div>
@@ -86,8 +86,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="col">
-                    <div class="card mx-auto shadow py-5 border-0 card-zoom" style="width: 18rem;">
+                <div class="col-md-6 col-lg-4">
+                    <div class="card mx-auto shadow py-5 border-0 card-zoom">
                         <div class="rounded-circle i-bg-col icon mx-auto py-1">
                             <i class="bi bi-gem fs-1 text-col"></i>
                         </div>
@@ -101,8 +101,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="col">
-                    <div class="card mx-auto shadow py-5 border-0 card-zoom" style="width: 18rem;">
+                <div class="col-md-6 offset-md-3 offset-lg-0 col-lg-4">
+                    <div class="card mx-auto shadow py-5 border-0 card-zoom">
                         <div class="rounded-circle i-bg-col icon mx-auto py-1">
                             <i class="bi bi-inboxes fs-1 text-col"></i>
                         </div>
@@ -123,19 +123,22 @@
 
     <!-- Testimonials -->
     <section class="py-5">
-        <div class="py-3 container-sm">
+        <div class="py-3 container-sm" data-aos="fade-up" data-aos-duration="1000">
             <h1 class="text-center">TESTIMONIALS</h1>
             <p class="text-center fs-2 fst-italic text-col" style="font-family: 'Playfair Display', serif;">WHAT ARE
                 THEY SAYING ABOUT US</p>
         </div>
 
-        <div class="d-flex align-items-center justify-content-center">
-            <div id="carouselExampleSlidesOnly" class="carousel slide p-5 container-sm " data-bs-ride="carousel">
-                <div class="carousel-inner">
-                    <div class="carousel-item active d-flex align-items-center">
-                        <div>
-                            <p class="fs-4" style="font-family: 'Playfair Display', serif;"><i class='bx bxs-quote-left text-col fs-4'></i>&emsp;
-                                I had a wonderful experience at yummy, their service was top notch and their
+        <div id="carouselExampleSlidesOnly" class="carousel slide p-5 container-sm " data-bs-ride="carousel"
+            data-aos="fade-up" data-aos-duration="3000">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="d-flex align-items-center justify-content-center">
+                        <div class="w-75">
+                            <p class="fs-4" style="font-family: 'Playfair Display', serif;"><i
+                                    class='bx bxs-quote-left text-col fs-4'></i>&emsp;
+                                I had a wonderful experience at <span class="text-col">Le Catering</span>, their service
+                                is top notch and their
                                 food?..Delicious.&emsp;<i class='bx bxs-quote-right text-col fs-4'></i>
                             </p>
                             <div>
@@ -149,21 +152,165 @@
                                 <i class="bi bi-star-fill text-warning"></i>
                             </div>
                         </div>
-                        <div class="w-50 h-50">
+                        <div class="w-25 h-auto">
                             <img src="./assets/images/testimonials-1.jpg" alt="testimonials-1"
-                                class="rounded-circle w-25 h-25">
+                                class="rounded-circle w-100">
                         </div>
                     </div>
-                    <div class="carousel-item">
-                        <img src="..." class="d-block w-100" alt="...">
+
+                </div>
+                <div class="carousel-item">
+                    <div class="d-flex align-items-center justify-content-center">
+                        <div class="w-75">
+                            <p class="fs-4" style="font-family: 'Playfair Display', serif;"><i
+                                    class='bx bxs-quote-left text-col fs-4'></i>&emsp;
+                                As a mother, getting a nice place to have a wonderful time with my family is difficult
+                                but
+                                <span class="text-col">Le Catering</span> is my answered prayer.&emsp;<i
+                                    class='bx bxs-quote-right text-col fs-4'></i>
+                            </p>
+                            <div>
+                                <h3 class="fs-4" style="font-family: 'Playfair Display', serif;">Wuraola Adeniyi</h3>
+                                <p>Mother</p>
+                            </div>
+                            <div>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                            </div>
+                        </div>
+                        <div class="w-25 h-auto">
+                            <img src="./assets/images/testimonials-2.jpg" alt="testimonials-2"
+                                class="rounded-circle w-100">
+                        </div>
                     </div>
-                    <div class="carousel-item">
-                        <img src="..." class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <div class="d-flex align-items-center justify-content-center">
+                        <div class="w-75">
+                            <p class="fs-4" style="font-family: 'Playfair Display', serif;"><i
+                                    class='bx bxs-quote-left text-col fs-4'></i>&emsp;
+                                The ambiance at <span class="text-col">Le catering</span> is breath-taking and worth
+                                every penny...I would be
+                                patronizing them again.&emsp;<i class='bx bxs-quote-right text-col fs-4'></i>
+                            </p>
+                            <div>
+                                <h3 class="fs-4" style="font-family: 'Playfair Display', serif;">Mary Jane</h3>
+                                <p>Enterpreneur</p>
+                            </div>
+                            <div>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                            </div>
+                        </div>
+                        <div class="w-25 h-auto">
+                            <img src="./assets/images/testimonials-3.jpg" alt="testimonials-3"
+                                class="rounded-circle w-100">
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+
+    <!-- call-to-action -->
+    <section class="bg-light mb-5">
+        <div class="container-sm">
+            <div class="text-center py-5">
+                <h1 class="fs-5" style="font-family: 'Playfair Display', serif;">BOOK A TABLE</h1>
+                <p class="fs-1 text-col">BOOK YOUR STAY WITH US</p>
+            </div>
+            <div class="row gx-5 gy-5">
+                <div class="col-lg-4">
+                    <img class="contact-img w-100" src="./assets/images/reservation.jpg" alt="reservation"
+                        data-aos="fade-right" data-aos-duration="2000" />
+                </div>
+                <div class="col-lg-8">
+                    <div class="d-flex flex-column h-100 align-items-center justify-content-center">
+                        <div class="row gx-5 gy-5 mb-5">
+                            <div class="col-lg-4">
+                                <input type="text" class="form-control form-control-lg" placeholder="Your name" />
+                            </div>
+                            <div class="col-lg-4">
+                                <input type="text" class="form-control form-control-lg" placeholder="Your Email" />
+                            </div>
+                            <div class="col-lg-4">
+                                <input type="text" class="form-control form-control-lg" placeholder="Your Phone" />
+                            </div>
+                            <div class="col-lg-4">
+                                <input type="text" class="form-control form-control-lg" placeholder="Date" />
+                            </div>
+                            <div class="col-lg-4">
+                                <input type="text" class="form-control form-control-lg" placeholder="Time" />
+                            </div>
+                            <div class="col-lg-4">
+                                <input type="text" class="form-control form-control-lg" placeholder="# of people" />
+                            </div>
+                            <div class="col-12">
+                                <textarea type="text" class="form-control form-control-lg"
+                                    placeholder="Message"></textarea>
+                            </div>
+                        </div>
+                        <button class="btn btn-primary rounded-pill btn-lg over">Book a table</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="bg-dark mt-5 py-5">
+        <div class="container">
+            <div class="py-5 text-white">
+                <div class="row gx-5 gy-5">
+                    <div class="col-lg-4">
+                        <p class="d-flex">
+                            <i class="bi bi-geo-alt fs-3"></i>
+                            <span class="ps-2">
+                                <span class="fw-bold d-block"> Address</span>
+                                <span class="text-secondary pt-3">A108 Adam Street
+                                    New York, NY 535022 - US</span>
+                            </span>
+                        </p>
+                    </div>
+                    <div class="col-lg-4">
+                        <p class="d-flex">
+                            <i class="bi bi-telephone fs-3"></i>
+                            <span class="ps-2">
+                                <span class="fw-bold d-block">Contact</span>
+                                <span class="text-secondary pt-3">
+                                    Phone: +1 5589 55488 55 <br />
+                                    Email: info@example.com
+                                </span>
+                            </span>
+                        </p>
+                    </div>
+                    <div class="col-lg-4">
+                        <p class="d-flex">
+                            <i class="bi bi-clock fs-3"></i>
+                            <span class="ps-2">
+                                <span class="fw-bold d-block">Opening Hours</span>
+                                <span class="text-secondary pt-3">
+                                    Mon-Sat: 11AM - 23PM <br />
+                                    Sunday: Closed
+                                </span>
+                            </span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="border-top border-light-subtle py-3 text-center">
+                <p class="text-white">
+                    &copy;
+                    Copyright Yummy. All Rights Reserved
+                    Designed by BootstrapMade
+                </p>
+            </div>
+        </div>
+    </footer>
 
 
 

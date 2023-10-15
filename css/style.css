@@ -7,6 +7,18 @@
     --secodary: rgba(206, 18, 18, 0.1);
 }
 
+.btn-primary {
+    background-color: var(--primary) !important;
+    color: white;
+    border-color: var(--primary);
+}
+
+.btn-primary:hover {
+    border-color: var(--primary);
+    background-color: var(--secodary) !important;
+    color: var(--primary) !important;
+}
+
 .bg-col {
     background-color: var(--primary) !important;
 }
@@ -24,6 +36,11 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    min-height: 80vh;
+}
+
+.home-hero {
+    min-height: 100vh;
 }
 
 .icon {
@@ -32,10 +49,11 @@
 
 .card-zoom {
     transition: all ease-in-out 0.5s;
+    height: 100%;
 }
 
 .card-zoom:hover {
-    transform: scale(1.09);
+    transform: scale(1.02);
 }
 
 .card-zoom:hover a {
@@ -45,4 +63,10 @@
 
 .index {
     z-index: 100;
+}
+
+@media (max-width: 1024px) {
+    .hero {
+        min-height: 50vh;
+    }
 }
